@@ -2,7 +2,7 @@ from selenium import webdriver
 import concurrent.futures
 
 def multi_splash(item, DRIVERS, etc):
-	link = "http://www.adidas.com/us/apps/yeezy5av"
+	link = "hhttp://www.adidas.com/yeezy"
 	driver = webdriver.Chrome(executable_path="drivers/chromedriver") #.exe if windows
 	driver.set_window_size(500,250)
 	driver.get(link)
